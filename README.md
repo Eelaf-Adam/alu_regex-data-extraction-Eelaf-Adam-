@@ -1,4 +1,4 @@
-# Eelaf Adam - Regex Data Extraction Tool 🔍
+# 👋🏽 Welcome to Regex Data Extraction Tool 🔍
 
 This tool will validate various data types using Regular Expressions (regex). It supports validating email addresses, URLs, phone numbers, currency amounts, and time. These tools does not only test the data against the regex provided it also allows the user to enter their own input for validation allowing in an interactive menu based.
 
@@ -47,7 +47,7 @@ regex-data-validation-tool-Eelaf-Adam/
 │   ├── time_validator.py
 
 ```
-## Features & Programming Concepts🌟
+## Features & Programming Concepts 💡
 
 ### Validation with Regex:  
 Covers multiple formats and edge cases for emails, URLs, phone numbers, times, and currencies.
@@ -64,7 +64,13 @@ Each validator is in its own Python file for clarity and reusability.
 ### Lightweight: 
 Uses only Python’s built-in re and sys modules.
 
+# Contact Information 🌟
+👩🏽‍💻[**Eelaf Adam**](https://github.com/Eelaf-Adam)
+📧[**Email**](e.adam@alustudent.com)
 
+# License 📑
+Copyright © 2025
+This project is licensed under the MIT License
 
 
 
