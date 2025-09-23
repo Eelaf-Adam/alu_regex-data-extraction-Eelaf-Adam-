@@ -6,7 +6,7 @@ This tool will validate various data types using Regular Expressions (regex). It
 
 First: Clone the repository on your local machine:
 ```
-git clone https://github.com/Eelaf-Adam/alu_regex-data-extraction-Eelaf-Adam-.git
+git clone https://github.com/Eelaf-Adam/alu_regex-data-extraction-Eelaf-Adam
 ```
 
 Second: Navigate to the cloned repository:
@@ -34,8 +34,17 @@ python3 main.py
 
 4. Exit the tool anytime by selecting option 7.
 
+## Director structure 📂
 
-
+regex-data-validation-tool-Eelaf-Adam/
+├── README.md              # Project documentation
+├── main.py                # Main program entry point
+├── validators/            # Folder containing validators
+│   ├── email_validator.py
+│   ├── urls_validator.py
+│   ├── phone_validator.py
+│   ├── currency_validator.py
+│   ├── time_validator.py
 
 
 
