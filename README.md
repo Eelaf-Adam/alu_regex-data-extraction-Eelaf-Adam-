@@ -19,6 +19,38 @@ Third: Run the main script:
 python3 main.py
 ```
 
+## Usage 🔐
+1. After running the script choose from the menu:
+  - Validate sample email addresses
+  - validate sample URLs
+  - Validate sample phone numbers
+  - Validate sample currency amounts
+  - Validate sample times
+  - Test your own input against any validator
+    
+2. For sample tests, the tool will automatically validate all built-in test data.
+
+3. For custom input, simply enter your own string when prompted.
+
+4. Exit the tool anytime by selecting option 7.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
