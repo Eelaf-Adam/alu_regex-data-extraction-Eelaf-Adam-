@@ -35,7 +35,7 @@ python3 main.py
 4. Exit the tool anytime by selecting option 7.
 
 ## Director structure 📂
-
+```
 regex-data-validation-tool-Eelaf-Adam/
 ├── README.md              # Project documentation
 ├── main.py                # Main program entry point
@@ -45,6 +45,9 @@ regex-data-validation-tool-Eelaf-Adam/
 │   ├── phone_validator.py
 │   ├── currency_validator.py
 │   ├── time_validator.py
+
+```
+
 
 
 
