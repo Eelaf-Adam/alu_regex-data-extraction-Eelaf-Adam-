@@ -47,7 +47,22 @@ regex-data-validation-tool-Eelaf-Adam/
 │   ├── time_validator.py
 
 ```
+## Features & Programming Concepts🌟
 
+### Validation with Regex:  
+Covers multiple formats and edge cases for emails, URLs, phone numbers, times, and currencies.
+
+### Interactive CLI Menu:
+Navigate through validators or test custom inputs.
+
+### Error Handling: 
+Handles invalid or empty input gracefully.
+
+### Modular Design: 
+Each validator is in its own Python file for clarity and reusability.
+
+### Lightweight: 
+Uses only Python’s built-in re and sys modules.
 
 
 
