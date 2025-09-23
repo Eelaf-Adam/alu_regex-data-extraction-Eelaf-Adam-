@@ -6,7 +6,7 @@ This tool will validate various data types using Regular Expressions (regex). It
 
 First: Clone the repository on your local machine:
 ```
-git clone https://github.com/Eelaf-Adam/alu_regex-data-extraction-Eelaf-Adam
+git clone https://github.com/Eelaf-Adam/alu_regex-data-extraction-Eelaf-Adam-.git
 ```
 
 Second: Navigate to the cloned repository:
@@ -145,6 +145,7 @@ Uses only Python’s built-in re and sys modules.
 # License 📑
 Copyright © 2025
 This project is licensed under the MIT License
+
 
 
 
