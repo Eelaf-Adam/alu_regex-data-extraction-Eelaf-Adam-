@@ -34,8 +34,82 @@ python3 main.py
 
 4. Exit the tool anytime by selecting option 7.
 
-## Director structure 📂
+# Sample OutPut 📤
+
+1. Email 
+```sh
+Choose an option (1-7): 1
+
+--- Testing Sample Data ---
+user@example.com Valid Email
+firstname.lastname@company.co.uk Valid Email
+user.name+tag+sorting@example.com Valid Email
+user_name@sub.company.com Valid Email
+user@123.123.123.123 Invalid Email
+user@localhost Invalid Email
+user@.com Invalid Email
+user@com Invalid Email
 ```
+
+2. URLs
+```sh
+Choose an option (1-7): 2
+
+--- Testing Sample Data ---
+https://www.example.comLinks to an external site. Invalid URL
+https://subdomain.example.org/pageLinks to an external site. Invalid URL
+http://localhost Valid URL
+https://192.168.1.1/path Valid URL
+https://www.example.com?query=test Invalid URL
+https://www.example.com#anchor Invalid URL
+ftp://example.com Invalid URL
+http://invalid-url.com Valid URL
+```
+
+3. Phone numbers
+```sh
+Choose an option (1-7): 3
+
+--- Testing Sample Data ---
+(123) 456-7890 Valid Phone Number
+123-456-7890 Valid Phone Number
+123.456.7890 Valid Phone Number
+123 456 7890 Valid Phone Number
++1 123-456-7890 Valid Phone Number
+1123-456-7890 Invalid Phone Number
+1234567890 Valid Phone Number
+```
+
+4. Currency 
+```sh
+Choose an option (1-7): 4
+
+--- Testing Sample Data ---
+$19.99 Valid Currency
+$1,234.56 Valid Currency
+$1234 Invalid Currency
+$12.3 Invalid Currency
+$0.99 Valid Currency
+£2,500.00 Invalid Currency
+1200 Invalid Currency
+```
+
+5. Time 
+``sh
+Choose an option (1-7): 5
+
+--- Testing Sample Data ---
+14:30 Valid Time
+2:30 PM Valid Time
+02:05 am Valid Time
+00:00 Valid Time
+12:00 PM Valid Time
+23:59 Valid Time
+13:60 Invalid Time
+```
+
+## Director structure 📂
+```sh
 regex-data-validation-tool-Eelaf-Adam/
 ├── README.md              # Project documentation
 ├── main.py                # Main program entry point
@@ -71,6 +145,7 @@ Uses only Python’s built-in re and sys modules.
 # License 📑
 Copyright © 2025
 This project is licensed under the MIT License
+
 
 
 
