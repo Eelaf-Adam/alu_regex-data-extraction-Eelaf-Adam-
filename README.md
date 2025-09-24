@@ -95,7 +95,7 @@ $0.99 Valid Currency
 ```
 
 5. Time 
-``sh
+```sh
 Choose an option (1-7): 5
 
 --- Testing Sample Data ---
@@ -145,6 +145,7 @@ Uses only Python’s built-in re and sys modules.
 # License 📑
 Copyright © 2025
 This project is licensed under the MIT License
+
 
 
 
